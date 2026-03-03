@@ -1,4 +1,4 @@
-// STEP 1: Select elements from the page
+// STEP 1: Select elements from the page -- Instructor explain Step 1-2 & demo/explain Step 3 event listener
 
 const factButton = document.getElementById("fact-button");
 
@@ -9,7 +9,7 @@ const factDisplay = document.getElementById("fact-display");
 
 function fetchCatFact() {
 
-    // Show loading message
+    // Show loading message - Explain this line of code
     factDisplay.textContent = "Loading cat fact...";
 
     // Fetch data from API
@@ -41,6 +41,6 @@ function fetchCatFact() {
 }
 
 
-// STEP 3: Add click event listener to button
+// STEP 3: Add click event listener to button - Instructor add in event listener and explain
 
-factButton.addEventListener("click", fetchCatFact);
+
