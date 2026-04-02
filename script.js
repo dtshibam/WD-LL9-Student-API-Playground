@@ -15,20 +15,20 @@
 // Make sure it works before continuing!
 
 // STEP 3: Paste your API URL here
-const API_URL = "PASTE_API_URL_HERE";
+const API_URL = "https://dog.ceo/api/breeds/image/random";
 
 // ========================================
 // STEP 4: Write Your Fetch Code
 // ========================================
 // TODO: Uncomment the code below and replace PASTE_API_URL_HERE with your API_URL variable
 
-/*
-fetch("PASTE_API_URL_HERE")
+/
+fetch("https://dog.ceo/api/breeds/image/random")
     .then(response => response.json())
     .then(data => {
         console.log(data);
     });
-*/
+/
 
 // After uncommenting, save and refresh your page.
 // Open the browser console (F12) to see your data!
